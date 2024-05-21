@@ -179,6 +179,53 @@ main {
 .gamer-img {
   width: 70%;
 }
+.gamer-img > img {
+  width: 70%;
+}
+.gamer-title {
+  width: 30%;
+  padding-top: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 200px;
+  gap: 5px;
+}
+.gamer-title > h1 {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gamer-title > p {
+  width: 520px;
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.gamer-title > h2 {
+  text-align: right;
+  color: #534c64;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+.our-purpose {
+  color: #534c64;
+  text-align: right;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
 /*  */
 /* .hero11 {
   width: 80%;
