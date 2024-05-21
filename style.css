@@ -23,7 +23,7 @@ header {
   display: flex;
   gap: 20px;
 }
-.header-content h1 {
+.header-content > h1 {
   text-align: center;
   font-size: 45px;
   font-style: normal;
@@ -73,3 +73,184 @@ header {
   justify-content: center;
   gap: 16px;
 }
+/*  main section start */
+
+main {
+  width: 100%;
+  height: 5900px;
+  background: #fff;
+}
+.banner-section {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  width: 50%;
+  height: 700px;
+  margin: 0;
+  background: linear-gradient(
+    235deg,
+    rgba(140, 87, 238, 0.03) 3.9%,
+    rgba(241, 68, 174, 0.03) 100.56%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-top {
+  width: 60%;
+  padding-top: 140px;
+}
+.banner-top > h3 {
+  padding: 0;
+  margin: 0;
+  color: #0b0223;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+.banner-top > h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 95px;
+  font-style: normal;
+}
+.banner-top > p {
+  color: #534c64;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+}
+.sign-in {
+  border: 0px;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.go-rogue {
+  border: 0px solid;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: #4ec5f7;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.img-container {
+  width: 50%;
+  padding-left: 60px;
+  bottom: 0;
+}
+/* gamer */
+.gamer {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+}
+.gamer-section {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gamer-img {
+  width: 70%;
+}
+/*  */
+/* .hero11 {
+  width: 80%;
+  margin: auto;
+  background-color: red;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.heroContent {
+  background-color: orange;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+}
+.heroImg {
+  height: 100%;
+  bottom: 0;
+}
+.heroContent h3 {
+  color: #0b0223;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.textCont {
+  width: 100%;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.textCont > h3 {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: #0b0223;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.textCont > h1 {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.textCont > p {
+  width: 100%;
+  margin: 0;
+  color: #534c64;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+} */
