@@ -471,6 +471,80 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* career section */
+.career-section {
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+}
+.career-card {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin: auto;
+  padding: 0;
+}
+.career-title {
+  padding: 100px;
+  width: 600px;
+  margin: 0;
+}
+.career-title > h1 {
+  width: 400px;
+  color: #fff;
+  text-align: left;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  padding-left: 60px;
+}
+.career-title > p {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 60px;
+}
+.career-list {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  padding-left: 60px;
+  padding-top: 10px;
+  list-style: none;
+}
+.list-country {
+  text-align: end;
+}
+.see-all-position {
+  border: 0 solid;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 48px;
+  background: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-left: 50px;
+}
+.seeAll {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /*  */
 /* .hero11 {
   width: 80%;
