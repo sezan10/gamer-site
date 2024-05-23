@@ -347,7 +347,7 @@ main {
 /* play game section */
 .play-instantly {
   width: 100%;
-  height: 500px;
+  height: 900px;
   display: flex;
   justify-content: flex-end;
 }
@@ -368,7 +368,7 @@ main {
   gap: 20px;
 }
 .h1-title {
-  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background: linear-gradient(180deg, #f948b2 100%, #8758f1 0%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -404,6 +404,72 @@ main {
   position: relative;
   bottom: 330px;
   right: 190px;
+}
+/* play games online section */
+.play-games-online {
+  width: 80%;
+  height: 900px;
+  display: flex;
+  justify-content: flex-start;
+}
+.play-online {
+  width: 90%;
+  height: 600px;
+  display: flex;
+}
+.game-games-img {
+  width: 70%;
+}
+.play-online-img-mainImg {
+  width: 90%;
+  padding-left: 155px;
+  display: flex;
+  justify-content: flex-end;
+}
+.play-online-img-btmImg {
+  width: 342px;
+  padding: 40px;
+  position: relative;
+  top: 360px;
+  right: 230px;
+}
+.play-online-title {
+  margin: 0;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.play-online-title > h1 {
+  width: 430px;
+  height: 200px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 200px;
+  margin: 0;
+}
+.play-online-title > p {
+  margin: 0;
+  padding: 0;
+  width: 430px;
+  color: #534c64;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.playGames {
+  background: linear-gradient(180deg, #f948b2 100%, #8758f1 0%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.online {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*  */
 /* .hero11 {
