@@ -545,6 +545,30 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* footer section */
+.footer-section {
+  width: 100%;
+  height: 500px;
+  background: #0b0223;
+}
+.footer-title {
+  padding-top: 120px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-gamer {
+  width: 86.041px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.footer-gamer > h1 {
+  width: 86.041px;
+  height: 40px;
+}
 /*  */
 /* .hero11 {
   width: 80%;
