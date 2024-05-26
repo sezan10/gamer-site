@@ -584,7 +584,6 @@ main {
 }
 
 .rectangle-11,
-.rectangle-13,
 .rectangle-18 {
   display: flex;
   gap: 16px;
@@ -593,6 +592,25 @@ main {
   width: 243px;
   border-radius: 50px;
   background: #fff;
+}
+.rectangle-13 {
+  width: 248px;
+  gap: 16px;
+  display: flex;
+  margin: auto;
+  padding: 10px 0px 10px 10px;
+  border-radius: 50px;
+  border: 2px solid var(--Linear, #ff42a5);
+  background: #fff;
+}
+.rectangle-13 > h3 {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .rectangle-12 {
   display: flex;
